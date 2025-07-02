@@ -133,7 +133,7 @@ combos {
 			&none       &kp N7      &kp N8      &kp N9      &none		    &kp N6     &kp N7      &kp UP       &kp N9       &kp N0
 			&none       &kp N4      &kp N5      &kp N6      &kp N0		    &kp N6     &kp LEFT    &kp DOWN     &kp RIGHT    &kp N0
 		 	&none       &kp N1      &kp N2      &kp N3      &kp N0 	        &none      &none       &none        &none        &none
-													&trans  &mo FNC   	 &trans &trans
+													&trans  &mo FUNC   	 &trans &trans
 			>;
 		};
 
@@ -155,12 +155,12 @@ combos {
 			&kp ESC   &kp C_PREV &kp C_PP   &kp C_NEXT &kp C_PAUSE    	 &kp PG_UP    &kp HOME &kp K_VOL_UP &kp END   &kp CAPS
 			&kp CAPS  &sk LGUI   &kp K_CUT  &kp K_COPY &kp K_PASTE 	     &kp PG_DN    &kp LEFT &kp K_VOL_UP &kp RIGHT &kp ENTER
 			&kp PSCRN &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)         &kp LC(BSPC) &kp BSPC &trans       &trans    &kp DEL
-												&trans &kp LCTRL    	&kp ENTER  &mo FNC 
+												&trans &kp LCTRL    	&kp ENTER  &mo FUNC 
 			>;
 		};
 
 		// Function keys with modifiers
-		fnc_layer {
+		func_layer {
 			label = "FRow";
 			bindings = <
 			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6  &kp F7  &kp F8 &kp F9 &kp F10 
