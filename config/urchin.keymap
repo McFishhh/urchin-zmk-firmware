@@ -81,13 +81,13 @@ combos {
 		combo_ext {
 			timeout-ms = <200>;
 			key-positions = < 32 33 >;
-			bindings = <&mo EXT>;
+			bindings = <&mo FUNC>;
 		};
 		// both left thumb keys
 		combo_functions {
 			timeout-ms = <200>;
 			key-positions = < 30 31 >;
-			bindings = <&mo FUNC>;
+			bindings = <&mo EXT>;
 		};
 		// all thumb keys
 		combo_settings {
@@ -98,7 +98,7 @@ combos {
 
 		// tab combo
 		combo_tab {
-			timeout-ms = <200>;
+			timeout-ms = <100>;
 			key-positions = < 7 8 >;
 			bindings = <&kp TAB>;
 			layers = <BASE>;
@@ -106,7 +106,7 @@ combos {
 
 		// enter combo
 		combo_enter {
-			timeout-ms = <200>;
+			timeout-ms = <100>;
 			key-positions = < 17 18 >;
 			bindings = <&kp ENTER>;
 			layers = <BASE>;
@@ -133,7 +133,7 @@ combos {
 			&none       &kp N7      &kp N8      &kp N9      &none		    &kp N6     &kp N7      &kp UP       &kp N9       &kp N0
 			&none       &kp N4      &kp N5      &kp N6      &kp N0		    &kp N6     &kp LEFT    &kp DOWN     &kp RIGHT    &kp N0
 		 	&none       &kp N1      &kp N2      &kp N3      &kp N0 	        &none      &none       &none        &none        &none
-													&trans  &mo FUNC   	 &trans &trans
+													&trans  &kp BSPC   	 &trans &trans
 			>;
 		};
 
