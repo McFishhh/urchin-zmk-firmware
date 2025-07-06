@@ -79,13 +79,13 @@ combos {
 		compatible = "zmk,combos";
 		// both right thumbs
 		combo_ext {
-			timeout-ms = <200>;
+			timeout-ms = <100>;
 			key-positions = < 32 33 >;
 			bindings = <&mo FUNC>;
 		};
 		// both left thumb keys
 		combo_functions {
-			timeout-ms = <200>;
+			timeout-ms = <100>;
 			key-positions = < 30 31 >;
 			bindings = <&mo EXT>;
 		};
